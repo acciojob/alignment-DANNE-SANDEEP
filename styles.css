@@ -1,20 +1,14 @@
-table {
+/*  your css code here. If applicable */
+.middle {
+    margin: auto;
     border: 1px solid black;
     border-spacing: 1px;
-    padding: 1px;
-    margin: 20px auto;
+    border-collapse: separate;
 }
 
-td {
+.middle td {
     border: 1px solid black;
     padding: 1px;
-    width: 50px;
-    height: 50px;
-}
-
-.middle {
-    margin-left: auto;
-    margin-right: auto;
 }
 
 .center {
@@ -27,10 +21,25 @@ td {
 
 .green {
     background-color: green;
+    height: 15px;
 }
 
 .blue {
     background-color: blue;
+    height: 15px;
+}
+
+#table-1 {
+    width: 650px;
+}
+
+#table-2 {
+    width: 650px;
+    height: 120px;
+}
+
+#table-3 {
+    width: 650px;
 }
 
 #t-image {
@@ -38,6 +47,6 @@ td {
 }
 
 #t-image img {
-    width: 150px;
-    height: auto;
+    width: 200px;
+    height: 150px;
 }
